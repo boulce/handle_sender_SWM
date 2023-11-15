@@ -7,22 +7,21 @@
 # 변수 설정
 
 
-1. [main.py](http://main.py) 내에 STMP 서버 및 이메일 정보를 입력합니다.
+1. main.py 내에 STMP 서버 및 이메일 정보를 입력합니다.
 
 ```python
 # STMP 서버의 url과 port 번호
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 465
 
-...
-
+```python
 EMAIL_ADDR = '' # 이메일 주소
 EMAIL_PASSWORD = '' # 이메일 비밀번호
 ```
 
-2. [mysql.py](http://mysql.py) 내에 DB 정보를 입력합니다.
+2. mysql.py 내에 DB 정보를 입력합니다.
 
-```jsx
+```python
 con = pymysql.connect(host='', # 호스트 입력
                     user='', # 유저네임 입력
                     password='', # 암호 입력
@@ -35,7 +34,7 @@ con = pymysql.connect(host='', # 호스트 입력
 
 1. 다음과 같은 모듈을 설치합니다.
 
-``
+```
 pip install tkinter
 pip install mysql
 pip install pymysql
