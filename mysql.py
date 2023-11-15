@@ -1,9 +1,13 @@
 import pymysql
 import threading
 
-con = pymysql.connect(host='', user='', password='',
-                       db='', charset='',                      # 해킹 위험이 있어 비공개로 처리
-                       cursorclass=pymysql.cursors.DictCursor) # 한글처리 (charset = 'utf8')
+# DB 관련 정보
+con = pymysql.connect(host='', # 호스트 입력
+                    user='', # 유저네임 입력
+                    password='', # 암호 입력
+                    db='', # 접속할 DB 입력
+                    charset='utf8', # 한글처리 (charset = 'utf8')
+                    cursorclass=pymysql.cursors.DictCursor)
 cur = con.cursor()
 
 def init_competition_name_fetch():

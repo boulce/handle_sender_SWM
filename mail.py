@@ -8,8 +8,8 @@ SMTP_PORT = 465
 # 1. SMTP 서버 연결
 smtp = smtplib.SMTP_SSL(SMTP_SERVER, SMTP_PORT)
 
-EMAIL_ADDR = '' # 깃허브에 공개했다가 누가 사용하려는 악성 접근이 있어서 비공개 처리
-EMAIL_PASSWORD = '' # 깃허브에 공개했다가 누가 사용하려는 악성 접근이 있어서 비공개 처리
+EMAIL_ADDR = '' # 이메일 주소
+EMAIL_PASSWORD = '' # 이메일 비밀번호
 
 # 2. SMTP 서버에 로그인
 smtp.login(EMAIL_ADDR, EMAIL_PASSWORD)
