@@ -33,17 +33,17 @@ con = pymysql.connect(host='', # 호스트 입력
 
 # 실행 방법
 
-1. 다음과 같은 라이브러리를 설치합니다.
+1. 다음과 같은 모듈을 설치합니다.
 
-```jsx
+``
 pip install tkinter
 pip install mysql
 pip install pymysql
 ```
 
-1. 실행 파일을 만들기 위한 라이브러리를 설치합니다.
+1. 실행 파일을 만들기 위한 모듈을 설치합니다.
 
-```jsx
+```
 pip install pyinstaller
 ```
 
