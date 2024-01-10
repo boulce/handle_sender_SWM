@@ -40,16 +40,16 @@ pip install mysql
 pip install pymysql
 ```
 
-1. 실행 파일을 만들기 위한 모듈을 설치합니다.
+2. 실행 파일을 만들기 위한 모듈을 설치합니다.
 
 ```
 pip install pyinstaller
 ```
 
-2. 다음 명령어를 통해 실행파일을 만듭니다.
+3. 다음 명령어를 통해 실행파일을 만듭니다.
 
 ```jsx
 pyinstaller --noconsole --onefile gui.py
 ```
 
-3. dist 디렉토리 안에 생성된 실행파일을 실행합니다.
+4. dist 디렉토리 안에 생성된 실행파일을 실행합니다.
